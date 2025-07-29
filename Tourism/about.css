@@ -1,11 +1,14 @@
 :root{
-    --primary-color: #b5d2e5;
-    --secondary-color: rgb(8, 237, 0);
-    --card-color: rgb(133, 68, 2);
-    --bg-color: #fff;
+    --primary-color: #FCD116;
+    --secondary-color: #8B4513;
+    --card-color: #FFF8DC;
+    --bg-color: #32CD32;
     --text-color: #333;
-    --shadow: 0 4px 6px rgba(0, 0, 0, 0,1);
+    --warm-gray: #F5F5F0;       
+    --dark-charcoal: #2C3E50;
+    --shadow: 0 2px 8px rgba(44, 62, 80, 0.1);
     --transition: all 0.3s ease;
+    --gradient-nature: linear-gradient(135deg, var(--palm-green) 0%, var(--primary-green) 100%);
 }
 
 *{
