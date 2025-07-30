@@ -21,8 +21,7 @@
 section.about{
     box-sizing: border-box;
     padding: 150px;
-    /* background: linear-gradient( #38332c, #F8B88B), url(people-celebrating-ramadan-together.jpg); */
-    background: linear-gradient( #38332c, #F8B88B), url(people-celebrating-ramadan-together.jpg);
+    background: linear-gradient(rgba(22,22,22,0.61), rgba(7, 82, 26, 0.774)), url(people-celebrating-ramadan-together.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -35,14 +34,15 @@ section.about{
 }
 
 .about h1{
-    color: #2E2E2E;
-    font-size: 2em;
+    color: var(--card-color);
+    font-size: 3em;
+    font-weight: 500;
     text-align: center;
     font-family: sans-serif;
 }
 
 .about p{
-    color: #6B6B6B;
+    color: var(--warm-gray);
     font-size: 1em;
     text-align: center;
     font-family: sans-serif;
@@ -123,11 +123,23 @@ section.abotus{
     }
 
     section.abotus{
-        padding: 100px;
+        width: 90%;
+        padding: 30px 20px;
+        margin-top: 20px;
+        border-radius: 8px;
     }
 
     .abotus h1{
-        padding: 20px;
-        display: flex;
+        font-size: 1.8em;
+        padding: 15px 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .abotus h2{
+        font-size: 1rem; 
+        line-height: 1.6;
+        text-align: left;
+        padding: 0 10px; 
+        color: #6B6B6B; 
     }
 }

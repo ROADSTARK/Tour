@@ -92,7 +92,10 @@ header{
 section.home{
     box-sizing: border-box;
     padding: 150px;
-    background: linear-gradient(to right, #4E944F, #E26D5A), url(jollof-rice.jpg);
+    background: linear-gradient(rgba(22,22,22,0.61), rgba(7, 82, 26, 0.774)), url(jollof-rice.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +105,7 @@ section.home{
 }
 
 .home h1{
-    color: #2E2E2E;
+    color: var(--card-color);
     font-size: 4em;
     font-family: sans-serif;
 }
